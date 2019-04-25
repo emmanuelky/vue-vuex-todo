@@ -4,17 +4,18 @@ const state = {
   todos: [
     {
       id: 1,
-      title: "todo one"
+      title: "Title one"
     },
     {
       id: 2,
-      title: "todos two"
+      title: "Title two"
     }
   ]
 };
 
 const getters = {
-  allTodos: (state) => state.todos
+allTodos: (state) => state.todos
+
 };
 
 const actions = {};
