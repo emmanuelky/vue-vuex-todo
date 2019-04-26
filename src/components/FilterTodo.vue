@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>Filter Todo</h3>
-    <select>
+    <select @change="filterTodo($event)">
       <option value="200">200</option>
       <option value="100">100</option>
       <option value="50">50</option>
@@ -13,8 +13,13 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 export default {
-  name: "FilterTodo"
+  name: "FilterTodo",
+  methods: {
+    ...mapActions(["filterTodo"])
+  }
 };
 </script>
 
