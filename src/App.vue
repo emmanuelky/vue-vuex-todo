@@ -4,7 +4,9 @@
       <AddTodo/>
       <FilterTodo/>
       <Todos/>
-      <br><br><br>
+      <br><br>
+      <pre>(Made with JSON Placeholder - No Backend)</pre>
+      <br>
       <i>Design with  <i class="far fa-heart"></i>  by Emmanuel</i>
     </div>
   </div>
