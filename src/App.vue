@@ -2,8 +2,10 @@
   <div id="app">
     <div class="container">
       <AddTodo/>
-      <FilterTodo />
+      <FilterTodo/>
       <Todos/>
+      <br><br><br>
+      <i>Design with  <i class="far fa-heart"></i>  by Emmanuel</i>
     </div>
   </div>
 </template>
@@ -12,7 +14,6 @@
 import Todos from "./components/Todos.vue";
 import AddTodo from "./components/AddTodo.vue";
 import FilterTodo from "./components/FilterTodo.vue";
-
 
 export default {
   name: "app",

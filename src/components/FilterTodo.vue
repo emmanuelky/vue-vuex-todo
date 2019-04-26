@@ -2,12 +2,12 @@
   <div>
     <h3>Filter Todo</h3>
     <select @change="filterTodo($event)">
-      <option value="200">200</option>
-      <option value="100">100</option>
-      <option value="50">50</option>
-      <option value="20">20</option>
-      <option value="10">10</option>
-      <option value="5">5</option>
+      <option value="200">10</option>
+      <option value="100">8</option>
+      <option value="50">6</option>
+      <option value="20">4</option>
+      <option value="10">2</option>
+      <option value="5">0</option>
     </select>
   </div>
 </template>
